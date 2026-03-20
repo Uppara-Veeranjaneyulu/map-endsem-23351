@@ -2,10 +2,13 @@
 
 A comprehensive Flutter application to help you keep track of your plants and their watering schedules.
 
+<<<<<<< HEAD
+
 ## Deployment
 
 The application is deployed live and can be accessed here:
 **[https://map-34c89.web.app/](https://map-34c89.web.app/)**
+==========================
 
 ## Features
 
@@ -35,22 +38,23 @@ The application is deployed live and can be accessed here:
 ### Installation
 
 1. Clone the repository:
+
    ```sh
    git clone <repository-url>
    ```
-
 2. Navigate to the project directory:
+
    ```sh
    cd justpro
    ```
-
 3. Install dependencies:
+
    ```sh
    flutter pub get
    ```
-
 4. **Firebase Setup**:
    This project relies on Firebase. You need to configure it before running the app:
+
    - Create a Firebase project in the Firebase Console.
    - Register your Android/iOS apps in the project.
    - Use FlutterFire CLI to configure the project automatically:
@@ -58,8 +62,8 @@ The application is deployed live and can be accessed here:
      flutterfire configure
      ```
    - Make sure your Firestore rules are set up properly for development.
-
 5. Run the application:
+
    ```sh
    flutter run
    ```
@@ -67,10 +71,7 @@ The application is deployed live and can be accessed here:
 ## Folder Structure
 
 The main application code is located in the `lib` folder:
+
 - `main.dart`: Contains the primary data models, state management logic (Provider), and the main UI screens (Gallery, Details, Add/Edit).
 - `notifications_mobile.dart` & `notifications_web.dart`: Handle platform-specific local notification scheduling.
 - `firebase_options.dart`: Automatically generated file for Firebase configuration.
-
-## License
-
-This project is licensed under the MIT License.
