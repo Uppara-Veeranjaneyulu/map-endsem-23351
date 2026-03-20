@@ -4,7 +4,7 @@ A comprehensive Flutter application to help you keep track of your plants and th
 
 ## depolyment
 
-``sh
+``
 https://map-34c89.web.app/
 ``
 
