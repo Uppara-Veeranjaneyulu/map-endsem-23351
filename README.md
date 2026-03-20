@@ -2,6 +2,12 @@
 
 A comprehensive Flutter application to help you keep track of your plants and their watering schedules.
 
+## depolyment
+
+``sh
+https://map-34c89.web.app/
+``
+
 ## Features
 
 - **Plant Gallery**: View all your plants in a beautifully designed grid interface.
@@ -65,7 +71,3 @@ The main application code is located in the `lib` folder:
 - `main.dart`: Contains the primary data models, state management logic (Provider), and the main UI screens (Gallery, Details, Add/Edit).
 - `notifications_mobile.dart` & `notifications_web.dart`: Handle platform-specific local notification scheduling.
 - `firebase_options.dart`: Automatically generated file for Firebase configuration.
-
-## License
-
-This project is licensed under the MIT License.
