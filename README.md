@@ -2,8 +2,6 @@
 
 A comprehensive Flutter application to help you keep track of your plants and their watering schedules.
 
-<<<<<<< HEAD
-
 ## Deployment
 
 The application is deployed live and can be accessed here:
